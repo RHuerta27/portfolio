@@ -5,9 +5,17 @@ import { Grid, Box, Paper, Typography, Avatar, Link } from '@mui/material';
 import tudn from '../assets/tudn.webp';
 import LELogo from '../assets/estrellas-logo.png';
 import Logis from '../assets/logis.jpeg';
+import BancoAzteca from '../assets/Bazteca.jpg';
 
 // Lista de proyectos
 const projects = [
+  {
+    title: "Banco Azteca",
+    description: "Sistema de aperturas de cuentas bancarias. Involucrado en la participación activa en el proceso y optimización para la apertura de cuentas",
+    tech: "React, Node JS, AWS, Docker",
+    image: BancoAzteca,
+    links: []
+  },
   {
     title: "TUDN",
     description: "Aplicación deportiva. Involucrado en actualizaciòn y mantenimiento de aplicación movil, creación de nuevos componentes reutilizables, actualización de versiones en tienda y de nuevos assets.",

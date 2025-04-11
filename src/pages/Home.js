@@ -2,8 +2,8 @@ import React from 'react';
 import { Avatar, Grid, Typography, Box, Paper, Chip } from '@mui/material';
 import EmailIcon from '@mui/icons-material/Email';
 import PhoneIcon from '@mui/icons-material/Phone';
-import TUDNLogo from '../assets/tudn.webp';
-import LELogo from '../assets/estrellas-logo.png';
+import TUDNLogo from '../assets/dn.jpg';
+import LELogo from '../assets/est.jpg';
 import Logis from '../assets/logis.jpeg';
 import MaddLogo from '../assets/madd.jpeg'; 
 import TelevisaLogo from '../assets/televisa.jpg'; 
@@ -21,6 +21,9 @@ import PHPImage from '../assets/php.png';
 import MysqlImage from '../assets/mysql.png';
 import GitImage from '../assets/git.png';
 import GitHubImage from '../assets/github.webp';
+import GpoSalinas from '../assets/SalinasG.png';
+import BancoAzteca from '../assets/Bazteca.jpg'
+
 
 const skillImages = {
   "React": ReactImage,
@@ -47,6 +50,11 @@ const skills = {
 };
 const projects = [
   {
+    title: "Banco Azteca",
+    description: "Sistema de Aperturas de cuentas Bancarias, optimización de procesos, creación y mantenimiento de nuevas funcionalidades ",
+    image: BancoAzteca
+  },
+  {
     title: "TUDN",
     description: "Aplicación deportiva, participé en el ciclo de vida y generación de componentes para la app mobile.",
     image: TUDNLogo
@@ -64,6 +72,13 @@ const projects = [
 ];
 
 const experiences = [
+  {
+    company: "Grupo Salinas - Banco Azteca",
+    role: "Desarrollador Front End",
+    duration: "Agosto 2024 - Actualidad",
+    technologies: "React, Javascript, Node JS, Docker, Git",
+    logo: GpoSalinas
+  },
   {
     company: "MADD Systems GPS Control",
     role: "Desarrollador",

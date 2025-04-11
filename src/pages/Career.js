@@ -3,8 +3,17 @@ import { Box, Grid, Typography, Paper, Avatar } from '@mui/material';
 import MaddLogo from '../assets/madd.jpeg';
 import TelevisaLogo from '../assets/televisa.jpg';
 import LogisLogo from '../assets/logis.jpeg';
+import GpoSalinas from '../assets/SalinasG.png';
+
 
 const experiences = [
+  {
+    company: "Grupo Salinas - Banco Azteca",
+    role: "Desarrollador Front End",
+    duration: "Agosto 2024 - Actualidad",
+    technologies: "React, Javascript, Node JS, Docker, Git",
+    logo: GpoSalinas
+  },
   {
     company: "MADD Systems GPS Control",
     role: "Desarrollador",
